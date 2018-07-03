@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.vladkrutlekto.chatapp.ChatActivity">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/message_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/down_bar"
+    android:layout_alignParentTop="true"
+    android:layout_margin="40dp"
+    android:divider="@android:color/transparent"
+    android:fadingEdge="vertical"
+    android:fadingEdgeLength="20dp">
+</android.support.v7.widget.RecyclerView>
+
+<LinearLayout
+    android:id="@+id/down_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/written_field"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:inputType="textCapSentences"/>
+
+    <ImageButton
+        android:contentDescription="@null"
+        android:id="@+id/add_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_send" />
+</LinearLayout>
+
+</RelativeLayout>

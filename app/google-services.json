@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "220676277228",
+    "firebase_url": "https://example-77367.firebaseio.com",
+    "project_id": "example-77367",
+    "storage_bucket": "example-77367.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220676277228:android:5b2bbe0ecce252cf",
+        "android_client_info": {
+          "package_name": "com.vladkrutlekto.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220676277228-hs937h2fv2r2ojt36cim5r29tak7cqt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vladkrutlekto.chatapp",
+            "certificate_hash": "721daafe2ea6df2b7f625d4cccd4050883e3cfad"
+          }
+        },
+        {
+          "client_id": "220676277228-9qb5kvutdb9ujq2b3qs516otc6vkn4ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQjqNDvlQX3XV5TFuv8pZIjOidBabOGZs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220676277228-9qb5kvutdb9ujq2b3qs516otc6vkn4ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

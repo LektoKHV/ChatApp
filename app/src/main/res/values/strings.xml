@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="sign_in_google">Sign-in with Google+ to continue</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="enter_nickname">Enter your nickname</string>
+    <string name="to_chat">Go to chat</string>
+
+    <string name="chat_label">Chat</string>
+    <string name="sign_label">Sign in</string>
+</resources>

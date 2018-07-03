@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:background="@drawable/message_window"
+    >
+
+    <TextView
+        android:id="@+id/message_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/candal"
+        android:text="UserChatName"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_user"
+        android:layout_marginLeft="6dp"
+        android:fontFamily="@font/average"
+        android:text="Description"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/message_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/message_text"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/average"
+        android:text="Date Time"
+        android:textSize="14sp" />
+</RelativeLayout>
