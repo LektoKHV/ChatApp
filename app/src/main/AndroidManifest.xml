@@ -25,6 +25,8 @@
             android:name=".ChatActivity"
             android:label="@string/chat_label"
             android:screenOrientation="portrait" />
+        <activity android:name=".ImageActivity"
+            android:label="@string/image_label"/>
     </application>
 
 </manifest>

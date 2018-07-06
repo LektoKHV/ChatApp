@@ -12,6 +12,7 @@ public class Message {
     private String user;
     private String message;
     @ServerTimestamp Date date;
+    private String imageUrl;
 
     public Message() {}
 
@@ -42,6 +43,14 @@ public class Message {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public String dateToString() {

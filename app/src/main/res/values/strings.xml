@@ -13,4 +13,5 @@
 
     <string name="chat_label">Chat</string>
     <string name="sign_label">Sign in</string>
+    <string name="image_label">Image</string>
 </resources>
